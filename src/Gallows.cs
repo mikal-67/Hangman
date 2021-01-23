@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,6 +18,7 @@ namespace hangmansharp
         }
         public void Display()
         {
+            Console.Clear();
             if (value == 0)
             {
                 Console.WriteLine(" ====================");
